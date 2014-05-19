@@ -1,0 +1,16 @@
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+*.bak*
+
+#Xcode files
+*.log
+xcuserdata
+project.xcworkspace
+
+#Project files
+[Bb]uild/
+
+#Version control files
+.svn
+*.orig

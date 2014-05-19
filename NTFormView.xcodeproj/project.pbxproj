@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0147D6CC192A582E004ED094 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0147D6CB192A582E004ED094 /* Foundation.framework */; };
+		0147D6D3192A582E004ED094 /* NTFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147D6D2192A582E004ED094 /* NTFormView.m */; };
+		0147D6FB192A5979004ED094 /* NTFormView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0147D6D0192A582E004ED094 /* NTFormView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0147D6C8192A582E004ED094 /* libNTFormView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNTFormView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0147D6CB192A582E004ED094 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0147D6CF192A582E004ED094 /* NTFormView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NTFormView-Prefix.pch"; sourceTree = "<group>"; };
+		0147D6D0192A582E004ED094 /* NTFormView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTFormView.h; sourceTree = "<group>"; };
+		0147D6D2192A582E004ED094 /* NTFormView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTFormView.m; sourceTree = "<group>"; };
+		0147D6DC192A582E004ED094 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0147D6C5192A582E004ED094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0147D6CC192A582E004ED094 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0147D6BF192A582E004ED094 = {
+			isa = PBXGroup;
+			children = (
+				0147D6CD192A582E004ED094 /* NTFormView */,
+				0147D6CA192A582E004ED094 /* Frameworks */,
+				0147D6C9192A582E004ED094 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0147D6C9192A582E004ED094 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0147D6C8192A582E004ED094 /* libNTFormView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0147D6CA192A582E004ED094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0147D6CB192A582E004ED094 /* Foundation.framework */,
+				0147D6DC192A582E004ED094 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0147D6CD192A582E004ED094 /* NTFormView */ = {
+			isa = PBXGroup;
+			children = (
+				0147D6D0192A582E004ED094 /* NTFormView.h */,
+				0147D6D2192A582E004ED094 /* NTFormView.m */,
+				0147D6CE192A582E004ED094 /* Supporting Files */,
+			);
+			path = NTFormView;
+			sourceTree = "<group>";
+		};
+		0147D6CE192A582E004ED094 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0147D6CF192A582E004ED094 /* NTFormView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0147D6FA192A5976004ED094 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0147D6FB192A5979004ED094 /* NTFormView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0147D6C7192A582E004ED094 /* NTFormView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0147D6EB192A582E004ED094 /* Build configuration list for PBXNativeTarget "NTFormView" */;
+			buildPhases = (
+				0147D6C4192A582E004ED094 /* Sources */,
+				0147D6C5192A582E004ED094 /* Frameworks */,
+				0147D6FA192A5976004ED094 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTFormView;
+			productName = NTFormView;
+			productReference = 0147D6C8192A582E004ED094 /* libNTFormView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0147D6C0192A582E004ED094 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Tarbayev;
+			};
+			buildConfigurationList = 0147D6C3192A582E004ED094 /* Build configuration list for PBXProject "NTFormView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0147D6BF192A582E004ED094;
+			productRefGroup = 0147D6C9192A582E004ED094 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0147D6C7192A582E004ED094 /* NTFormView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0147D6C4192A582E004ED094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0147D6D3192A582E004ED094 /* NTFormView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0147D6E9192A582E004ED094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0147D6EA192A582E004ED094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0147D6EC192A582E004ED094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NTFormView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NTFormView/NTFormView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/${PRODUCT_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0147D6ED192A582E004ED094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NTFormView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NTFormView/NTFormView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/${PRODUCT_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0147D6C3192A582E004ED094 /* Build configuration list for PBXProject "NTFormView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0147D6E9192A582E004ED094 /* Debug */,
+				0147D6EA192A582E004ED094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0147D6EB192A582E004ED094 /* Build configuration list for PBXNativeTarget "NTFormView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0147D6EC192A582E004ED094 /* Debug */,
+				0147D6ED192A582E004ED094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0147D6C0192A582E004ED094 /* Project object */;
+}
