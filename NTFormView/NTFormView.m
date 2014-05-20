@@ -116,7 +116,25 @@
 @end
 
 
-@interface NTFormView () <UIGestureRecognizerDelegate>
+@implementation UIView (SpecificClassDescendants)
+
+- (NSArray *)descendantViewsOfClass:(Class)class {
+    NSMutableArray *result = [NSMutableArray new];
+    
+    for (UIView *subview in self.subviews) {
+        if ([subview isKindOfClass:class])
+            [result addObject:subview];
+        
+        [result addObjectsFromArray:[subview descendantViewsOfClass:class]];
+    }
+    
+    return result;
+}
+
+@end
+
+
+@interface NTFormView () <UIGestureRecognizerDelegate, UITextFieldDelegate>
 
 @end
 
@@ -180,6 +198,11 @@
                                                  selector:@selector(keyboardWillHide:)
                                                      name:UIKeyboardWillHideNotification
                                                    object:nil];
+        
+        for (UITextField *field in [self descendantViewsOfClass:[UITextField class]]) {
+            if (!field.delegate)
+                field.delegate = self;
+        }
     }
 }
 
@@ -230,6 +253,19 @@
         return ![touch.view isKindOfClass:[UIControl class]];
     
     return YES;
+}
+
+
+#pragma mark - UITextFieldDelegate Methods
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    
+    if (textField.returnKeyType == UIReturnKeyDone) {
+        [textField resignFirstResponder];
+        return NO;
+    }
+    
+    return ![self switchToNextFirstResponder];
 }
 
 
